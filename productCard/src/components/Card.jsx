@@ -12,7 +12,14 @@ export const Card = () => {
       <button className="descuento">%30 OFF</button>
       <br />
       <span className="precioActual">$294.999</span>
-      <span className="mensaje"></span>
+      <br />
+      <br />
+      <button className="comprar" type="button" value={"COMPRAR"}>
+        COMPRAR
+      </button>
+      <br />
+      <br />
+      <span className="mensaje">Gracias por tu compra</span>
     </div>
   );
 };
