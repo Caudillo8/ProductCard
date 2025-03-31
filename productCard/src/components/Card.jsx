@@ -3,10 +3,10 @@ import { useState } from "react";
 /*----------------------------------------- */
 export const Card = () => {
   /**------------ESTADOS------------------ */
-  const miEstado = {
+  const miEstado = Object.freeze({
     COMPRADO: "Gracias por su compra.",
     NO_COMPRADO: "",
-  };
+  });
   const [mensaje, setMensaje] = useState(miEstado.NO_COMPRADO);
   /**-----------------COMPRAR---------------- */
   const Comprar = () => {
