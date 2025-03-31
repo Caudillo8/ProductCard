@@ -2,10 +2,15 @@ import "./styleCard.css";
 import { useState } from "react";
 /*----------------------------------------- */
 export const Card = () => {
-  const [mensaje, setMensaje] = useState("");
+  /**------------ESTADOS------------------ */
+  const miEstado = {
+    COMPRADO: "Gracias por su compra.",
+    NO_COMPRADO: "",
+  };
+  const [mensaje, setMensaje] = useState(miEstado.NO_COMPRADO);
   /**-----------------COMPRAR---------------- */
   const Comprar = () => {
-    setMensaje("Gracias por su compra");
+    setMensaje(miEstado.COMPRADO);
   };
   /*------------------*RETURN----------------- */
   return (
