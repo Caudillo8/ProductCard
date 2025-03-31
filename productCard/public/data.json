@@ -1,0 +1,11 @@
+{
+  "productos": [
+    {
+      "nombre": "Smart TV 42 Sansei Android",
+      "modelo": "TDS2442FISH",
+      "precioAnterior": 419.999,
+      "precioActual": "$294.999",
+      "descuento": "%30 OFF"
+    }
+  ]
+}
