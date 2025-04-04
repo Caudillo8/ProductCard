@@ -8,19 +8,12 @@
 }
 .descuento {
   background-color: #d93175;
+  color: white;
   margin-left: 10%;
   padding: 5px 13px;
   font-size: 14px;
 }
-/*.imagen,
-.precioAnterior,
-.precioActual,
-.nombre,
-.modelo,
-.comprar,
-.mensaje {
-  margin-left: 20%;
-}*/
+
 .comprar {
   background-color: #2968c8;
   color: white;
@@ -30,6 +23,7 @@
 }
 .precioActual {
   font-weight: bolder;
+  font-size: 20px;
   margin-left: 25%;
 }
 .precioAnterior {
