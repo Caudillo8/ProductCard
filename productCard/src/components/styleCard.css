@@ -13,7 +13,9 @@
   padding: 5px 13px;
   font-size: 14px;
 }
-
+.descuento:hover {
+  cursor: default;
+}
 .comprar {
   background-color: #2968c8;
   color: white;
@@ -27,7 +29,8 @@
   margin-left: 25%;
 }
 .precioAnterior {
-  color: #bfbebe;
+  color: #929191;
+  font-size: 18px;
   margin-left: 15%;
 }
 .mensaje {
