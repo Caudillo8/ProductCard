@@ -2,15 +2,6 @@ import "./styleCard.css";
 import { useState } from "react";
 /*----------------------------------------- */
 export const Card = (props) => {
-  /*---------------------CARGAR LISTA------------*/
-  const cargarLista = async () => {
-    const respuesta = await fetch(
-      "http://localhost:5173/data.json"
-    ); /*VER MAP PARA QUE TOME LA INFO DEL JSON */
-    const data = await respuesta.json();
-    console.log(data);
-  };
-  cargarLista();
   /**------------ESTADOS------------------ */
   const miEstado = Object.freeze({
     COMPRADO: "Gracias por su compra.",

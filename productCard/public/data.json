@@ -1,10 +1,35 @@
 {
   "productos": [
     {
+      "id": 1,
       "nombre": "Smart TV 42 Sansei Android",
       "modelo": "TDS2442FISH",
       "precioAnterior": 419.999,
       "precioActual": "$294.999",
+      "descuento": "%30 OFF"
+    },
+    {
+      "id": 2,
+      "nombre": "Smart TV 50 Sansei Android",
+      "modelo": "TDS2450FISH",
+      "precioAnterior": 499.999,
+      "precioActual": "$349.999",
+      "descuento": "%30 OFF"
+    },
+    {
+      "id": 3,
+      "nombre": "Smart TV 55 Sansei Android",
+      "modelo": "TDS2455FISH",
+      "precioAnterior": 599.999,
+      "precioActual": "$419.999",
+      "descuento": "%30 OFF"
+    },
+    {
+      "id": 4,
+      "nombre": "Smart TV 65 Sansei Android",
+      "modelo": "TDS2465FISH",
+      "precioAnterior": 699.999,
+      "precioActual": "$489.999",
       "descuento": "%30 OFF"
     }
   ]
