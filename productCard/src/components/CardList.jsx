@@ -13,6 +13,7 @@ export const CardList = () => {
         if (Array.isArray(data)) {
           setJsonLista(data);
         } else if (data && typeof data === "object") {
+          console.log("El objeto no es un array, pero se ha recibido:", data);
           setJsonLista([data]); // Wrap object in an array
         } else {
           console.error("No se pudo cargar la lista o el formato no es válido");
@@ -27,9 +28,11 @@ export const CardList = () => {
 
   return (
     <div>
-      {pasaManos.map((elemento) => (
-        <Card {...elemento} key={elemento.id} /> /*error id */
-      ))}
+      {pasaManos.map(
+        (elemento) => (
+          console.log(elemento), (<Card {...elemento} key={elemento.id} />)
+        )
+      )}
     </div>
   );
 };

@@ -28,10 +28,10 @@ export const Card = ({
         <section className="modelo">{modelo}</section>
       </div>
       <section className="numeros">
-        <s className="precioAnterior">$ {precioAnterior}</s>
-        <button className="descuento">%{descuento}OFF</button>
+        <s className="precioAnterior"> {precioAnterior}</s>
+        <button className="descuento">{descuento}</button>
         <br />
-        <span className="precioActual">${precioActual}</span>
+        <span className="precioActual">{precioActual}</span>
       </section>
       <br />
       <br />

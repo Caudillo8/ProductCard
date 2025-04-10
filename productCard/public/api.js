@@ -8,7 +8,7 @@ export const TraerLista = async () => {
   );
   const data = await respuesta.json();
   console.log(data);
-  return data;
+  return data.productos; // Asegúrate de que 'productos' es la clave correcta en tu JSON
 };
 /*export const TraerLista = async () => {
     const respuesta = await fetch("http://localhost:5173/data.json");

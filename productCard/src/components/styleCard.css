@@ -5,6 +5,7 @@
   position: relative;
   top: 50%;
   left: 50%;
+  margin-bottom: 20px;
 }
 .descuento {
   background-color: #d93175;
@@ -38,8 +39,11 @@
   margin-left: 30%;
 }
 .imagen {
+  width: 200px;
+  height: fit-content;
+  object-fit: contain;
   margin-left: 20%;
-  margin-top: 5%;
+  margin-top: 1%;
   margin-bottom: 0px;
 }
 .container_titulos {
