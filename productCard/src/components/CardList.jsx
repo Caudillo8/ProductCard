@@ -24,6 +24,7 @@ export const CardList = () => {
       }
     };
     cargarLista();
+    console.log("RENDERIZADO"); //solo se carga una vez, no cada vez que cambia el estado.
   }, []);
 
   return (
