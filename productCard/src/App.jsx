@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<MiNavegador />} />
-        <Route path="/card" element={<Card />} />
+
         <Route path="/cardlist" element={<CardList />} />
       </Routes>
     </div>
