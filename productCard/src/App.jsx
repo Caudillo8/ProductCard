@@ -15,6 +15,7 @@ function App() {
 
         <Route path="/cardlist" element={<CardList />} />
       </Routes>
+      <MiNavegador />
     </div>
   );
 }
