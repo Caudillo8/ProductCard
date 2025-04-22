@@ -5,7 +5,7 @@ import { Route, Routes, useLocation } from "react-router-dom";
 
 const MiNavegador = () => {
   return (
-    <div className="container">
+    <div className="container_nav">
       <NavLink to="/">Inicio</NavLink>
       <NavLink to="/CardList">LISTA</NavLink>
     </div>
