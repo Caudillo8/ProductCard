@@ -6,6 +6,7 @@ import { Card } from "./components/Card";
 import { CardList } from "./components/CardList";
 import MiNavegador from "./components/MiNavegador";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import DetalleProducto from "./components/DetalleProducto";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<MiNavegador />} />
 
         <Route path="/cardlist" element={<CardList />} />
+        <Route path="/api/:product_id" element={<DetalleProducto />} />
       </Routes>
       <MiNavegador />
     </div>

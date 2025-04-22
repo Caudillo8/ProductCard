@@ -1,5 +1,6 @@
 import "./styleCard.css";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 /*----------------------------------------- */
 export const Card = ({
   imagen,
@@ -39,6 +40,7 @@ export const Card = ({
       <button className="comprar" type="button" onClick={Comprar}>
         COMPRAR
       </button>
+      <Link to={`/api/${id}`}>Ver detalle</Link>
       <br />
       <br />
       <span className="mensaje">{mensaje}</span>
