@@ -1,7 +1,7 @@
 import { Card } from "./Card.jsx";
 import "./styleCard.css";
 import { useState, useEffect } from "react";
-import { TraerLista } from "../../public/api.js";
+import { TraerLista } from "../api.js";
 
 export const CardList = () => {
   const [pasaManos, setJsonLista] = useState([]);

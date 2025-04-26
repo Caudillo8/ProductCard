@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { getProductById } from "productCard/public/api.js";
+import { getProductById } from "../api.js";
 
 const DetalleProducto = () => {
   const [product, setProduct] = useState(null);
@@ -27,6 +27,13 @@ const DetalleProducto = () => {
   useEffect(() => {
     getProductDetail();
   }, []);
+  return (
+    <div>
+      {loading && <span>Cargando...</span>}
+      {error && <span>{error}</span>}
+      {product && <span>{product.modelo}</span>}
+    </div>
+  );
 };
 
 export default DetalleProducto;

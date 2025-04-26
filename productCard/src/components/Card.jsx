@@ -9,6 +9,7 @@ export const Card = ({
   precioAnterior,
   descuento,
   precioActual,
+  id,
 }) => {
   /**------------ESTADOS------------------ */
   const miEstado = Object.freeze({
@@ -36,7 +37,6 @@ export const Card = ({
       </section>
       <br />
       <br />
-
       <button className="comprar" type="button" onClick={Comprar}>
         COMPRAR
       </button>

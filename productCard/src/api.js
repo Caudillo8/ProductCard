@@ -19,6 +19,6 @@ export const TraerLista = async () => {
     return data;
   };*/
 export const getProductById = async ({ product_id }) => {
-  const products = await getProducts();
+  const products = await TraerLista();
   return products.find((product) => product.id == product_id);
 };
