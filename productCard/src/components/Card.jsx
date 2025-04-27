@@ -1,4 +1,4 @@
-import "./styleCard.css";
+import "../miEstilo/styleCard.css";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 /*----------------------------------------- */

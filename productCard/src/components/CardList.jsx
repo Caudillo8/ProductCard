@@ -1,5 +1,5 @@
 import { Card } from "./Card.jsx";
-import "./styleCard.css";
+import "../miEstilo/styleCard.css";
 import { useState, useEffect } from "react";
 import { TraerLista } from "../api.js";
 

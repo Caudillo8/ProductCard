@@ -1,5 +1,5 @@
 import React from "react";
-import "./navegador.css";
+import "../miEstilo/navegador.css";
 import { NavLink } from "react-router-dom";
 import { Route, Routes, useLocation } from "react-router-dom";
 
@@ -8,6 +8,8 @@ const MiNavegador = () => {
     <div className="container_nav">
       <NavLink to="/">Inicio</NavLink>
       <NavLink to="/CardList">LISTA</NavLink>
+      <NavLink to="/Contacto">CONTACTO</NavLink>
+      <NavLink to="/MiLogin">Login</NavLink>
     </div>
   );
 };

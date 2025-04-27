@@ -1,0 +1,81 @@
+body {
+  background-color: #f9fafb;
+  font-size: 13px;
+}
+.container {
+  background-color: #ffffff;
+  color: #09094d;
+  border: solid 1px black;
+  border-radius: 10px;
+}
+.nombreApellido {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.datoNombre {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/*.password-input {
+    position: relative;
+    display: inline-block;
+    margin-left: 5px;
+  }
+  
+  .password-input svg {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }*/
+.subtitulo {
+  color: #a9aaae;
+}
+label {
+  font-weight: bold;
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.datoNombre {
+  width: 50%;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.datoNombre input {
+  width: 80%;
+  height: 30px;
+}
+.datoLargo {
+  width: 100%;
+  margin-bottom: 5px;
+}
+.datoLargo input {
+  width: 90%;
+  height: 30px;
+  padding: 3px;
+  box-sizing: border-box;
+}
+.datoNombre label,
+.datoLargo label {
+  left: 0%;
+}
+.btn {
+  color: white;
+  background-color: black;
+  margin: 10px;
+  width: 60%;
+  height: 30px;
+  border-radius: 5px;
+}
+input {
+  border-radius: 5px;
+}

@@ -7,14 +7,17 @@ import { CardList } from "./components/CardList";
 import MiNavegador from "./components/MiNavegador";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import DetalleProducto from "./components/DetalleProducto";
-
+import Contacto from "./components/Contacto";
+import MiLogin from "./components/MiLogin";
 function App() {
   return (
     <div className="App">
       <Routes>
+        {/*todo deben tener export by default*/}
         <Route path="/" element={<MiNavegador />} />
-
+        <Route path="/Contacto" element={<Contacto />} />
         <Route path="/cardlist" element={<CardList />} />
+        <Route path="/MiLogin" element={<MiLogin />} />
         <Route path="/api/:product_id" element={<DetalleProducto />} />
       </Routes>
       <MiNavegador />
