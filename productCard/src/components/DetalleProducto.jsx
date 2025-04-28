@@ -22,18 +22,23 @@ const DetalleProducto = () => {
         setError("Error al buscar producto");
       }
       setLoading(false);
-    }, 2000);
+    }, 0);
   };
   useEffect(() => {
     getProductDetail();
   }, []);
-  return (
-    <div>
-      {loading && <span>Cargando...</span>}
-      {error && <span>{error}</span>}
-      {product && <span>{product.modelo}</span>}
-    </div>
-  );
+  // return (
+  //   <div>
+  //     {loading && <span>Cargando...</span>}
+  //     {error && <span>{error}</span>}
+  //     {product && <span>{product.modelo}</span>}
+  //   </div>
+  // );
+  useEffect(() => {
+    if (product) {
+      alert(product.modelo);
+    }
+  }, [product]);
 };
 
 export default DetalleProducto;
