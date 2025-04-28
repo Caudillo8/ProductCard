@@ -20,30 +20,35 @@ export const Card = ({
   /**-----------------COMPRAR---------------- */
   const Comprar = () => {
     setMensaje(miEstado.COMPRADO);
+    alert(miEstado.COMPRADO);
   };
   /*------------------*RETURN----------------- */
   return (
-    <div className="container">
-      <img className="imagen" src={imagen}></img>
-      <div className="container_titulos">
-        <section className="nombre">{nombre}</section>
-        <section className="modelo">{modelo}</section>
-      </div>
-      <section className="numeros">
-        <s className="precioAnterior"> {precioAnterior}</s>
-        <button className="descuento">{descuento}</button>
+    <div className="contenedor_cards">
+      <div className="container">
+        <img className="imagen" src={imagen}></img>
+        <div className="container_titulos">
+          <section className="nombre">{nombre}</section>
+          <section className="modelo">{modelo}</section>
+        </div>
+        <section className="numeros">
+          <s className="precioAnterior"> {precioAnterior}</s>
+          <button type="button" className="descuento">
+            {descuento}
+          </button>
+          <br />
+          <span className="precioActual">{precioActual}</span>
+        </section>
         <br />
-        <span className="precioActual">{precioActual}</span>
-      </section>
-      <br />
-      <br />
-      <button className="comprar" type="button" onClick={Comprar}>
-        COMPRAR
-      </button>
-      <Link to={`/api/${id}`}>Ver detalle</Link>
-      <br />
-      <br />
-      <span className="mensaje">{mensaje}</span>
+        <br />
+        <button className="comprar" type="button" onClick={Comprar}>
+          COMPRAR
+        </button>
+        <Link to={`/api/${id}`}>Ver detalle</Link>
+        <br />
+        <br />
+        {/*<span className="mensaje">{mensaje}</span>*/}
+      </div>
     </div>
   );
 };
