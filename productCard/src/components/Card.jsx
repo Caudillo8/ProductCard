@@ -25,7 +25,7 @@ export const Card = ({
   /*------------------*RETURN----------------- */
   return (
     <div className="contenedor_cards">
-      <div className="container">
+      <div className="container-card">
         <img className="imagen" src={imagen}></img>
         <div className="container_titulos">
           <section className="nombre">{nombre}</section>
