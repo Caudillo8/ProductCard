@@ -3,6 +3,7 @@ body {
   font-size: 13px;
 }
 .container-login {
+  position: relative;
   background-color: #ffffff;
   color: #09094d;
   border: solid 1px black;
@@ -10,7 +11,7 @@ body {
   width: 400px;
   height: fit-content;
   top: 30px;
-  left: 60%;
+  left: 500px;
 }
 .nombreApellido {
   display: flex;

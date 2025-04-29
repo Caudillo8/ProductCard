@@ -8,43 +8,55 @@ const MiLogin = () => {
       <form>
         <div className="nombreApellido">
           <div className="datoNombre">
-            <label>Nombre</label>
-            <input type="text" placeholder="nombre" />
+            <label htmlFor="nombre-login">Nombre</label>
+            <input id="nombre-login" type="text" placeholder="nombre" />
           </div>
           <div className="datoNombre">
-            <label>Apellido</label>
-            <input type="text" placeholder="apellido" />
+            <label htmlFor="apellido-login">Apellido</label>
+            <input id="apellido-login" type="text" placeholder="apellido" />
           </div>
           <br />
           <br />
         </div>
         <div className="datoLargo">
-          <label>Email</label>
+          <label htmlFor="email-login">Email</label>
           <br />
-          <input type="email" placeholder="correo electrónico" />
-          <br />
-          <br />
-        </div>
-        <div className="datoLargo">
-          <label>Teléfono</label>
-          <br />
-          <input type="tel" placeholder="número de teléfono" />
+          <input
+            id="email-login"
+            type="email"
+            placeholder="correo electrónico"
+          />
           <br />
           <br />
         </div>
         <div className="datoLargo">
-          <label>Password</label>
+          <label htmlFor="telefono-login">Teléfono</label>
+          <br />
+          <input
+            id="telefono-login"
+            type="tel"
+            placeholder="número de teléfono"
+          />
+          <br />
+          <br />
+        </div>
+        <div className="datoLargo">
+          <label htmlFor="pass-login">Password</label>
           <br />
           <div className="password-input">
-            <input type="password" placeholder="contraseña" />
+            <input id="pass-login" type="password" placeholder="contraseña" />
 
             <br />
             <br />
           </div>
           <div className="div datoLargo">
-            <label>Confirma pass</label>
+            <label htmlFor="confirm-pass-login">Confirma pass</label>
             <br />
-            <input type="password" placeholder="confirma contraseña" />
+            <input
+              id="confirm-pass-login"
+              type="password"
+              placeholder="confirma contraseña"
+            />
 
             <br />
             <br />
