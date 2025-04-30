@@ -1,0 +1,34 @@
+.container-registro {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  left: 500px;
+  background-color: #52a84a;
+  border-radius: 25px;
+  color: white;
+}
+.titulo-contacto {
+  font-size: 15px;
+  margin-left: 25px;
+}
+.formulario-contacto {
+  margin-left: 50px;
+  color: yellow;
+}
+.boton-formulario-contacto {
+  margin-left: 35px;
+  margin-top: 20px;
+  background: #bdc3c7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c3e50,
+    #bdc3c7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c3e50,
+    #bdc3c7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-color: yellow 2px solid;
+  color: white;
+}

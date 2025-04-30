@@ -1,13 +1,14 @@
 import React from "react";
+import "../miEstilo/contacto.css";
 
 const Contacto = () => {
   return (
     <div className="container-registro">
       <h2>
-        <u>REGISTRO DE DATOS PERSONALES.</u>
+        <u className="titulo-contacto">REGISTRO DE DATOS PERSONALES.</u>
       </h2>
       <br />
-      <form action="">
+      <form action="" className="formulario-contacto">
         <label htmlFor="nombre">NOMBRE COMPLETO:</label>
         <input
           type="text"
@@ -39,7 +40,7 @@ const Contacto = () => {
           required="required"
         />
         <br />
-        <button type="submit" onClick={""}>
+        <button type="submit" className="boton-formulario-contacto">
           ENVIAR
         </button>
         {/*recordar el prevent*/}
