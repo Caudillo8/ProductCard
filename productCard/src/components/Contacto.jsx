@@ -38,6 +38,7 @@ const Contacto = () => {
           placeholder="escribe tu mensaje..."
           maxLength={120}
           required="required"
+          className="textarea-contacto"
         />
         <br />
         <button type="submit" className="boton-formulario-contacto">

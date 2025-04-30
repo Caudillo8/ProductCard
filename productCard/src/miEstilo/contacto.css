@@ -3,7 +3,7 @@
   height: 300px;
   position: relative;
   left: 500px;
-  background-color: #52a84a;
+  background-color: #5e68091a;
   border-radius: 25px;
   color: white;
 }
@@ -16,19 +16,12 @@
   color: yellow;
 }
 .boton-formulario-contacto {
-  margin-left: 35px;
+  margin-left: 65px;
   margin-top: 20px;
-  background: #bdc3c7; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #2c3e50,
-    #bdc3c7
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #2c3e50,
-    #bdc3c7
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: rgb(233, 13, 13);
   border-color: yellow 2px solid;
   color: white;
+}
+.textarea-contacto {
+  margin-left: 25px;
 }

@@ -2,6 +2,12 @@ body {
   background-color: #f9fafb;
   font-size: 13px;
 }
+.titulo-login {
+  margin-left: 50px;
+}
+input {
+  margin-left: 25px;
+}
 .container-login {
   position: relative;
   background-color: #ffffff;

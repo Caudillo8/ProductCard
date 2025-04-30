@@ -3,7 +3,7 @@ import "../miEstilo/MiLogin.css";
 const MiLogin = () => {
   return (
     <div className="container-login">
-      <h1>Crea tu cuenta</h1>
+      <h1 className="titulo-login">Crea tu cuenta</h1>
       <h4 className="subtitulo">Ingresa tu información en el registro.</h4>
       <form>
         <div className="nombreApellido">
