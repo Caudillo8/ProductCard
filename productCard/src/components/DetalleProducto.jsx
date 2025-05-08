@@ -2,7 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { getProductById } from "../api.js";
-
+import "../miEstilo/detalle-producto.css";
 const DetalleProducto = () => {
   const [product, setProduct] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -27,18 +27,14 @@ const DetalleProducto = () => {
   useEffect(() => {
     getProductDetail();
   }, []);
-  // return (
-  //   <div>
-  //     {loading && <span>Cargando...</span>}
-  //     {error && <span>{error}</span>}
-  //     {product && <span>{product.modelo}</span>}
-  //   </div>
-  // );
-  useEffect(() => {
-    if (product) {
-      alert(product.modelo);
-    }
-  }, [product]);
+  return (
+    <div className="container-detalle">
+      <h2>Modelo del producto</h2>
+      {/*{loading && <span>Cargando...</span>}*/}
+      {/*{error && <span>{error}</span>}*/}
+      {product && <span>{product.modelo}</span>}
+    </div>
+  );
 };
 
 export default DetalleProducto;
