@@ -1,5 +1,5 @@
 import { collection, getDocs } from "firebase/firestore";
-import database from "../config/firebase";
+import database from "./config/firebase"; // Asegúrate de que la ruta sea correcta
 
 export const TraerLista = async () => {
   try {
