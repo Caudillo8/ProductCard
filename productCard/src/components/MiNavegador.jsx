@@ -10,6 +10,7 @@ const MiNavegador = () => {
       <NavLink to="/CardList">LISTA</NavLink>
       <NavLink to="/Contacto">CONTACTO</NavLink>
       <NavLink to="/MiLogin">Login</NavLink>
+      <NavLink to="/crear_producto">Crear Producto</NavLink>
     </div>
   );
 };
