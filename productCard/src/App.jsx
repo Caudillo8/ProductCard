@@ -20,7 +20,7 @@ function App() {
         <Route path="/cardlist" element={<CardList />} />
         <Route path="/MiLogin" element={<MiLogin />} />
         <Route path="/api/:product_id" element={<DetalleProducto />} />
-        <Route path="/crear_producto" element={<Crear_producto />} />
+        <Route path="/Crear_producto" element={<Crear_producto />} />
       </Routes>
       <MiNavegador />
     </div>
