@@ -28,7 +28,7 @@ export const CardList = () => {
   }, []);
 
   return (
-    <div>
+    <div className="contenedor-cards">
       {pasaManos.map(
         (elemento) => (
           console.log(elemento), (<Card {...elemento} key={elemento.id} />)

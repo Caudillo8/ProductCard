@@ -31,7 +31,7 @@ export const Card = ({
         <section className="modelo">{modelo}</section>
       </div>
       <section className="numeros">
-        <s className="precioAnterior"> {precioAnterior}</s>
+        <span className="precioAnterior"> {precioAnterior}</span>
         <button type="button" className="descuento">
           {descuento}
         </button>
@@ -44,8 +44,6 @@ export const Card = ({
         COMPRAR
       </button>
       <Link to={`/api/${id}`}>Ver detalle</Link>
-      <br />
-      <br />
       {/*<span className="mensaje">{mensaje}</span>*/}
     </div>
   );
