@@ -9,7 +9,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import DetalleProducto from "./components/DetalleProducto";
 import Contacto from "./components/Contacto";
 import MiLogin from "./components/MiLogin";
-import Crear_producto from "./components/crear_producto";
+import Crear_producto from "./components/Crear_producto";
 function App() {
   return (
     <div className="App">
