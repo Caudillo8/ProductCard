@@ -5,5 +5,9 @@
   left: 500px;
   background-color: #5e68091a;
   border-radius: 25px;
-  color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

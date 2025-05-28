@@ -5,7 +5,7 @@
   left: 500px;
   background-color: #5e68091a;
   border-radius: 25px;
-  color: white;
+  color: black;
 }
 .titulo-contacto {
   font-size: 15px;
@@ -13,14 +13,14 @@
 }
 .formulario-contacto {
   margin-left: 50px;
-  color: yellow;
+  color: black;
 }
 .boton-formulario-contacto {
   margin-left: 65px;
   margin-top: 20px;
   background: rgb(233, 13, 13);
   border-color: yellow 2px solid;
-  color: white;
+  color: black;
 }
 .textarea-contacto {
   margin-left: 25px;

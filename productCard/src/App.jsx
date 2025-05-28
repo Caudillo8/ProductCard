@@ -10,12 +10,13 @@ import DetalleProducto from "./components/DetalleProducto";
 import Contacto from "./components/Contacto";
 import MiLogin from "./components/MiLogin";
 import Crear_producto from "./components/Crear_producto";
+import Home from "./components/Home";
 function App() {
   return (
     <div className="App">
       <Routes>
         {/*todo deben tener export by default*/}
-        <Route path="/" element={<MiNavegador />} />
+        <Route path="/Home" element={<Home />} />
         <Route path="/Contacto" element={<Contacto />} />
         <Route path="/cardlist" element={<CardList />} />
         <Route path="/MiLogin" element={<MiLogin />} />
