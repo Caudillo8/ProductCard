@@ -31,7 +31,7 @@ export const Card = ({
         <section className="modelo">{modelo}</section>
       </div>
       <section className="numeros">
-        <span className="precioAnterior"> {precioAnterior}</span>
+        <s className="precioAnterior">$ {precioAnterior}</s>
         <button type="button" className="descuento">
           {descuento}
         </button>

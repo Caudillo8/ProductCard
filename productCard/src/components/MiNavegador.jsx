@@ -6,11 +6,11 @@ import { Route, Routes, useLocation } from "react-router-dom";
 const MiNavegador = () => {
   return (
     <div className="container_nav">
-      <NavLink to="/">Inicio</NavLink>
-      <NavLink to="/CardList">LISTA</NavLink>
+      <NavLink to="/">HOME</NavLink>
+      <NavLink to="/CardList">PRODUCTOS</NavLink>
       <NavLink to="/Contacto">CONTACTO</NavLink>
-      <NavLink to="/MiLogin">Login</NavLink>
-      <NavLink to="/crear_producto">Crear Producto</NavLink>
+      <NavLink to="/MiLogin">REGISTRO</NavLink>
+      <NavLink to="/crear_producto">CREAR PRODUCTO</NavLink>
     </div>
   );
 };
