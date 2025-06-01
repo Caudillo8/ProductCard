@@ -11,12 +11,15 @@ import Contacto from "./components/Contacto";
 import MiLogin from "./components/MiLogin";
 import Crear_producto from "./components/Crear_producto";
 import Home from "./components/Home";
+import Login from "./components/Login";
 function App() {
   return (
     <div className="App">
       <Routes>
         {/*todo deben tener export by default*/}
         <Route path="/Home" element={<Home />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/Login" element={<Login />} />
         <Route path="/Contacto" element={<Contacto />} />
         <Route path="/cardlist" element={<CardList />} />
         <Route path="/MiLogin" element={<MiLogin />} />
